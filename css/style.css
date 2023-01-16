@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1c1a19;
+}
+
+.form {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+form {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-group label {
+  width: 100px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.form-group .input-c {
+  flex: auto;
+}
+
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+}
